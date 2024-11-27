@@ -17,7 +17,7 @@ function Products() {
           </li>
         ))}
       </ul>
-      <Link>Back</Link>
+      <Link to='..' relative="path">Back</Link>
     </>
   );
 }
