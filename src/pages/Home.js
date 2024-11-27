@@ -4,13 +4,13 @@ function HomePage() {
   const navigate = useNavigate();
 
   function navigateHandler() {
-    navigate("/products");
+    navigate("products");
   }
   return (
     <>
       <h1>My Home Page</h1>
       <p>
-        Go to <Link to="/products">The List Of Products</Link>{" "}
+        Go to <Link to="products">The List Of Products</Link>{" "}
       </p>
       <p>
         <button onClick={navigateHandler}>Navigate to Product</button>
